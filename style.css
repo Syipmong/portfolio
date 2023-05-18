@@ -1,0 +1,310 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h2 {
+  font-size: 20px;
+  color: #888;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #333;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project p {
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Colors */
+body {
+  color: #333;
+}
+
+header {
+  background-color: #f2f2f2;
+}
+
+nav ul li a {
+  color: #333;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #333;
+  color: #333;
+}
+
+section {
+  background-color: #fff;
+}
+
+.project {
+  background-color: #fafafa;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Font Awesome icons */
+.fa {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.fa-lg {
+  font-size: 24px;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.fab-linkedin-square:before {
+  content: "\f08c";
+}
+
+.fab-github-square:before {
+  content: "\f092";
+}
+
+.fab-twitter-square:before {
+  content: "\f081";
+}
+
+/* Profile icon image placeholder */
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.contact-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.contact-icons li {
+  margin: 0 10px;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.more-button {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#experience {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.experience-item p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Contact section */
+#contact {
+    padding: 40px 0;
+    background-color: #f2f2f2;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.contact-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.contact-icons li {
+  margin: 0 10px;
+}
+
+.contact-icons li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-icons li a:hover {
+  color: #ccc;
+  opacity: 0.7;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* style.css */
+
+/* Modal */
+/* Your existing CSS code */
+
+/* Modal styles */
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  max-width: 500px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
